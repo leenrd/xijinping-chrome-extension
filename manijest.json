@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Image Replacer",
+  "version": "1.0",
+  "description": "Replaces every image on a webpage with another image.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
