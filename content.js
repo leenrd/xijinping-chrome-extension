@@ -1,4 +1,4 @@
-const replacementImageURL = "https://via.placeholder.com/150";
+const replacementImageURL = "./xi.webp";
 
 function replaceImages() {
   const images = document.querySelectorAll("img");
